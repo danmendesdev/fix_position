@@ -1,0 +1,27 @@
+from enum import Enum
+
+
+class OrdType(Enum):
+    Market = '1'
+    Limit = '2'
+    Stop = '3'
+    Stop_limit = '4'
+    Market_on_close = '5'
+    With_or_without = '6'
+    Limit_or_better = '7'
+    Limit_with_or_without = '8'
+    On_basis = '9'
+    On_close = 'A'
+    Limit_on_close = 'B'
+    Forex_Market = 'C'
+    Previously_quoted = 'D'
+    Previously_indicated = 'E'
+    Forex_Limit = 'F'
+    Forex_Swap = 'G'
+    Forex_Previously_Quoted = 'H'
+    Funari = 'I'
+    Market_If_Touched = 'J'
+    Market_with_Leftover_as_Limit = 'K'
+    Previous_Fund_Valuation_Point = 'L'
+    Next_Fund_Valuation_Point = 'M'
+    Pegged = 'P'
